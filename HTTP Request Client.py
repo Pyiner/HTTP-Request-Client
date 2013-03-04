@@ -52,7 +52,7 @@ class MyFrame2 ( wx.Frame ):
         wx.Frame.__init__ ( self, parent, id = wx.ID_ANY, title = wx.EmptyString, pos = wx.DefaultPosition, size = wx.Size( 554,430 ), style = wx.DEFAULT_FRAME_STYLE|wx.TAB_TRAVERSAL )
         self.out=False
 
-        self.SetSizeHintsSz( wx.DefaultSize, wx.DefaultSize )
+        self.SetSizeHintsSz( wx.Size( 537,430 ), wx.Size( 537,430 ) )
 
         bSizer3 = wx.BoxSizer( wx.VERTICAL )
 

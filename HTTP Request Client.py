@@ -6,7 +6,7 @@ import sys
 
 import wx
 
-import YinerSpider
+from YinerSpider import YinerSpider
 
 
 class WorkThread(threading.Thread):
@@ -41,7 +41,7 @@ class WorkThread(threading.Thread):
                 print self.r.headers
                 rq=self.r.get()
             if self.window.out:
-                with open('../快盘/Mycode/新项目/out.txt','wb') as f:
+                with open('out.txt','wb') as f:
                     sys.stdout=f
                     print rq.content,
             wx.CallAfter(self.window.LogMessage, self.count)

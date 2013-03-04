@@ -38,7 +38,6 @@ class WorkThread(threading.Thread):
             if self.r.data:
                 rq=self.r.post()
             else:
-                print self.r.headers
                 rq=self.r.get()
             if self.window.out:
                 with open('out.txt','wb') as f:

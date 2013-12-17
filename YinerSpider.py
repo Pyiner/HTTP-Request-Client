@@ -68,8 +68,8 @@ if __name__=='__main__':
 __EVENTARGUMENT:
 __VIEWSTATE:/wEPDwUL  LTE1MzYzODg2NzZkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYBBQtjaGtSZW1lbWJlcm1QYDyKKI9af4b67Mzq2xFaL9Bt
 __EVENTVALIDATION:/wEWBQLWwpqPDQLyj/OQAgK3jsrkBALR55GJDgKC3IeGDE1m7t2mGlasoP1Hd9hLaFoI2G05
-tbUserName:ljy1992
-tbPassword:162345
+tbUserName:
+tbPassword:
 btnLogin:登  录
 txtReturnUrl:http://www.cnblogs.com/""")#python 字符串引号的区别
     r=y.post()
